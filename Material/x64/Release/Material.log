@@ -1,0 +1,28 @@
+﻿  dllmain.cpp
+C:\Users\keito\Desktop\Project Reaper\Material\Material\structs.h(101,31): warning C4267: '=': 'size_t' から 'int32_t' に変換しました。データが失われているかもしれません。
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(2728,53): warning C4244: '引数': 'wchar_t' から 'const _Elem' への変換です。データが失われる可能性があります。
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(2584,17): message : コンパイル対象の関数 テンプレート インスタンス化 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' のリファレンスを確認してください
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+C:\Users\keito\Desktop\Project Reaper\Material\Material\structs.h(119,22): message : コンパイル対象の関数 テンプレート インスタンス化 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' のリファレンスを確認してください
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+C:\Users\keito\Desktop\Project Reaper\Material\Material\structs.h(119,4): message : 'FString::ToString' の 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' への最初の参照を参照してください
+  コード生成しています。
+  Previous IPDB not found, fall back to full compilation.
+  All 289 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  Material.vcxproj -> C:\Users\keito\Desktop\Project Reaper\Material\x64\Release\Material.dll
